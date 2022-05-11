@@ -24,7 +24,7 @@ const App = (props: AppProps) => {
 			<section className="row">
 				<div className="col-md-6 offset-md-3">
 					<div className="d-grid gap-2">
-						<button className="btn btn-primary w-full">Poopsock</button>
+						<button className="btn btn-danger w-full">Poopsock</button>
 					</div>
 				</div>
 			</section>
