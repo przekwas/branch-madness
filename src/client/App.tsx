@@ -21,6 +21,13 @@ const App = (props: AppProps) => {
 	return (
 		<main className="container my-5">
 			<h1 className="text-primary text-center">Hello {greeting}!</h1>
+			<section className="row">
+				<div className="col-md-6 offset-md-3">
+					<div className="d-grid gap-2">
+						<button className="btn btn-primary w-full">Poopsock</button>
+					</div>
+				</div>
+			</section>
 		</main>
 	);
 };
